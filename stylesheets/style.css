@@ -2264,3 +2264,7 @@ hr {
 .card-content p {
 	font-size: 18px;
 }
+
+#about-card {
+	transition: all unset !important;
+}
