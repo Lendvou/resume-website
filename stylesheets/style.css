@@ -2239,3 +2239,28 @@ hr {
 .single-footer {
 	margin: 0;
 }
+
+.my-header {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.my-header__avatar {
+	margin-bottom: 20px;
+	width: 200px;
+	border-radius: 50%;
+	border: 4px solid gray;
+}
+
+.my-header__name {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.card-content p {
+	font-size: 18px;
+}

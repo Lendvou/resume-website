@@ -40,9 +40,7 @@
 		<link href="stylesheets/vendors/materialize.css" rel="stylesheet" />
 		<link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet" />
 		<link href="stylesheets/style.css" id="switch_style" rel="stylesheet" />
-
 	</head>
-
 
 	<body class="scale-effect">
 		<div id="loading" style="display: none">
@@ -63,11 +61,9 @@
 		<!--==========================================
                     HEADER
 ===========================================-->
-		<header id="home">
+		<!-- <header id="home">
 			<nav id="theMenu" class="menu">
-				<!--MENU-->
 				<div id="menu-options" class="menu-wrap">
-					<!--PERSONAL LOGO-->
 					<div class="logo-flat">
 						<img
 							alt="personal-logo"
@@ -77,7 +73,6 @@
 					</div>
 					<br />
 
-					<!--OPTIONS-->
 					<a href="#home"><i class="title-icon fa fa-user"></i>Home</a>
 					<a href="#about"><i class="title-icon fa fa-dashboard"></i>About</a>
 					<a href="#education"
@@ -102,18 +97,15 @@
 						><i class="title-icon fa fa-envelope"></i>Contact</a
 					>
 				</div>
-
-
 			</nav>
 
-			<!--HEADER BACKGROUND-->
 			<div class="header-background section"></div>
-		</header>
+		</header> -->
 
 		<!--==========================================
                    V-CARD
 ===========================================-->
-		<div
+		<!-- <div
 			id="v-card-holder"
 			class="section"
 			data-sr-id="52"
@@ -133,9 +125,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
-						<!-- V-CARD -->
 						<div id="v-card" class="card hide-overflow height-change">
-							<!-- PROFILE PICTURE -->
 							<div id="profile" class="right">
 								<img
 									alt="profile-image"
@@ -144,10 +134,6 @@
 								/>
 								<div class="slant"></div>
 
-								<!--EMPTY PLUS BUTTON-->
-								<!--<div class="btn-floating btn-large add-btn"><i class="material-icons">add</i></div>-->
-
-								<!--VIDEO PLAY BUTTON-->
 								<div id="button-holder" class="btn-holder middle">
 									<div
 										id="play-btn"
@@ -162,13 +148,11 @@
 									</div>
 								</div>
 							</div>
-							<!--VIDEO CLOSE BUTTON-->
 							<div id="close-btn" class="btn-floating icon-close">
 								<i class="fa fa-close"></i>
 							</div>
 
 							<div class="card-content">
-								<!-- NAME & STATUS -->
 								<div class="info-headings">
 									<h4 class="text-uppercase left">John DOE</h4>
 									<h6 class="text-capitalize left">
@@ -176,7 +160,6 @@
 									</h6>
 								</div>
 
-								<!-- CONTACT INFO -->
 								<div class="infos">
 									<ul class="profile-list">
 										<li class="clearfix">
@@ -212,50 +195,48 @@
 									</ul>
 								</div>
 
-								<!--LINKS-->
 								<div class="links">
-									<!-- FACEBOOK-->
 									<a href="#" id="first_one" class="social btn-floating indigo"
 										><i class="fa fa-facebook"></i
 									></a>
-									<!-- TWITTER-->
 									<a href="#" class="social btn-floating blue"
 										><i class="fa fa-twitter"></i
 									></a>
-									<!-- GOOGLE+-->
 									<a href="#" class="social btn-floating red"
 										><i class="fa fa-google-plus"></i
 									></a>
-									<!-- LINKEDIN-->
 									<a href="#" class="social btn-floating blue darken-3"
 										><i class="fa fa-linkedin"></i
 									></a>
-									<!-- RSS-->
 									<a href="#" class="social btn-floating orange darken-3"
 										><i class="fa fa-rss"></i
 									></a>
 								</div>
 							</div>
-							<!--HTML 5 VIDEO-->
 							<video
 								id="html-video"
 								class="video"
 								poster="images/icons/mixer.png"
 								controls=""
 								src="./wellty.mkv"
-							>
-								<!--SERVER HOSTED VIDEO-->
-								<!-- <source src="videos/b.webm" type="video/webm" />
-								<source src="videos/a.mp4" type="video/mp4" /> -->
-							</video>
+							></video>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
+
 		<!--==========================================
                    ABOUT
 ===========================================-->
+
+		<div class="my-header">
+			<!-- <div class="my-header__avatar">
+			</div> -->
+			<img class="my-header__avatar" src="./images/vzlom.jpg" alt="ava" />
+			<div class="my-header__name">Гаджиев Муса</div>
+		</div>
+
 		<div id="about" class="section">
 			<div class="container">
 				<div class="row">
@@ -282,13 +263,13 @@
 							<div class="card-content">
 								<!-- ABOUT PARAGRAPH -->
 								<p>
-									Hello! I’m John Doe. Senior Web Developer with over 13 years
-									of experience specializing in front end development.
-									Experienced with all stages of the development cycle for
-									dynamic web projects.Having an in-depth knowledge including
-									advanced HTML5, CSS, CSS3, SASS, LESS, JSON, XML, Java,
-									JavaScript, JQuery, Angular JS. Strong background in
-									management and leadership.
+									Привет, меня зовут Гаджиев Муса. Я являюсь веб-разработчиком с
+									опытом работы 1 год+. Занимаюсь созданием веб-приложений с
+									применением новейших технологий. Мой стек включает в себя
+									HTML, CSS, SASS, LESS, JSON, Javascript и JS фронтенд
+									фреймворки, такие как React, VueJS, NuxtJS. Я также работаю на
+									бекенде на языке node.js и на фреймворках ExpressJS,
+									FeathersJS.
 								</p>
 							</div>
 
@@ -296,9 +277,19 @@
 							<div id="about-btn" class="card-action">
 								<div class="about-btn">
 									<!-- DOWNLOAD CV BUTTON -->
-									<a href="#" class="btn waves-effect">Download CV</a>
+									<!-- <a href="#" class="btn waves-effect">Download CV</a> -->
 									<!-- CONTACT BUTTON -->
-									<a href="#contact" class="btn waves-effect">Contact Me</a>
+									<a href="https://github.com/Lendvou" target="_blank">
+										<img
+											src="images/icons/github.png"
+											style="width: 50px; height: 50px"
+											alt="github"
+										/>
+									</a>
+									<!-- <a href="https://github.com/Lendvou" class="btn waves-effect">
+										<img src="images/icons/github.png" alt="github" />
+									</a> -->
+									<!-- <a href="#contact" class="btn waves-effect">Contact Me</a> -->
 								</div>
 							</div>
 						</div>
@@ -331,7 +322,7 @@
 								transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
 									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 							"
-						/>Education
+						/>Образование
 					</h4>
 				</div>
 
@@ -355,7 +346,7 @@
 									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 							"
 						>
-							<h6>P</h6>
+							<h6>Ш</h6>
 						</div>
 						<!-- TIMELINE CONTENT -->
 						<div
@@ -377,21 +368,19 @@
 						>
 							<div class="card-content">
 								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">Preparatory Education</h6>
+								<h6 class="timeline-title">Школа, среднее образование</h6>
 								<!-- TIMELINE TITLE INFO -->
 								<div class="timeline-info">
 									<h6>
-										<small>Fedrick School</small>
+										<small>Школа №10</small>
 									</h6>
 									<h6>
-										<small>Jan 1997 - Mar 2000</small>
+										<small>Сен 2006 - Май 2017</small>
 									</h6>
 								</div>
 								<!-- TIMELINE PARAGRAPH -->
 								<p>
-									I completed my preparatory education from this prestigious
-									institution. I successful completed all the credits without
-									any fallout and got A grade overall.
+									Успешно закончил 11 классов моей любимой школы на отлично.
 								</p>
 								<!-- BUTTON TRIGGER MODAL -->
 								<a
@@ -425,7 +414,7 @@
 									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 							"
 						>
-							<h6>H</h6>
+							<h6>У</h6>
 						</div>
 						<!-- TIMELINE CONTENT -->
 						<div
@@ -447,21 +436,20 @@
 						>
 							<div class="card-content">
 								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">High School</h6>
+								<h6 class="timeline-title">Университет</h6>
 								<!-- TIMELINE TITLE INFO -->
 								<div class="timeline-info">
 									<h6>
-										<small>RedStreet College</small>
+										<small>ДГУ</small>
 									</h6>
 									<h6>
-										<small>Jan 2000 - Mar 2005</small>
+										<small>Сен 2017 - Июн 2021</small>
 									</h6>
 								</div>
 								<!-- TIMELINE PARAGRAPH -->
 								<p>
-									I completed my high school degree from this prestigious
-									institution. I successful completed all the credits without
-									any fallout and got A grade overall.
+									Учусь на бакалавра на факультете ФИиИТ направления
+									Информационная Безопасность. Осталось полгода.
 								</p>
 							</div>
 						</div>
@@ -486,7 +474,7 @@
 									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 							"
 						>
-							<h6>C</h6>
+							<h6>V</h6>
 						</div>
 						<!-- TIMELINE CONTENT -->
 						<div
@@ -508,221 +496,21 @@
 						>
 							<div class="card-content">
 								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">Computer Science</h6>
+								<h6 class="timeline-title">Фронтенд разработка</h6>
 								<!-- TIMELINE TITLE INFO -->
 								<div class="timeline-info">
 									<h6>
-										<small>Down Street College</small>
+										<small>Academind</small>
 									</h6>
 									<h6>
-										<small>Jan 2006 - Mar 2008</small>
+										<small>Июл 2019 - Ноя 2019</small>
 									</h6>
 								</div>
 								<!-- TIMELINE PARAGRAPH -->
 								<p>
-									I completed my computer science degree from this prestigious
-									institution. I successful completed all the credits without
-									any fallout and got A grade overall.
+									Проходил курс по изучению фронтенд фреймворка VueJS и ReactJS
+									у Academind.
 								</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- FOURTH TIMELINE -->
-					<div class="timeline-block">
-						<!-- DOT -->
-						<div
-							class="timeline-dot"
-							data-sr-id="8"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: -webkit-transform 1.1s
-										cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<i class="fa fa-graduation-cap"></i>
-						</div>
-						<!-- TIMELINE CONTENT -->
-						<div
-							class="card timeline-content"
-							data-sr-id="9"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: box-shadow 0.25s ease 0s,
-									-webkit-transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: box-shadow 0.25s ease 0s,
-									transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<div class="card-content">
-								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">Software Engineering</h6>
-								<!-- TIMELINE TITLE INFO -->
-								<div class="timeline-info">
-									<h6>
-										<small>Oxford University</small>
-									</h6>
-									<h6>
-										<small>Jan 2009 - Mar 2010</small>
-									</h6>
-								</div>
-								<!-- TIMELINE PARAGRAPH -->
-								<p>
-									I completed this degree from this prestigious institution. I
-									successful completed all the credits without any fallout and
-									got A grade overall.
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- FIFTH TIMELINE -->
-					<div class="timeline-block">
-						<!-- DOT -->
-						<div
-							class="timeline-dot"
-							data-sr-id="10"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: -webkit-transform 1.1s
-										cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<h6>U</h6>
-						</div>
-						<!-- TIMELINE CONTENT -->
-						<div
-							class="card timeline-content"
-							data-sr-id="11"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: box-shadow 0.25s ease 0s,
-									-webkit-transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: box-shadow 0.25s ease 0s,
-									transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<div class="card-content">
-								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">UI/UX Workshop</h6>
-								<!-- TIMELINE TITLE INFO -->
-								<div class="timeline-info">
-									<h6>
-										<small>IT Next Academy</small>
-									</h6>
-									<h6>
-										<small>Jan 2010 - Mar 2011</small>
-									</h6>
-								</div>
-								<!-- TIMELINE PARAGRAPH -->
-								<p>
-									I completed this course from this prestigious institution. I
-									successful completed all the credits without any fallout and
-									got A grade overall.
-								</p>
-								<!-- BUTTON TRIGGER MODAL -->
-								<a
-									href="#"
-									class="modal-dot"
-									data-toggle="modal"
-									data-target="#myModal-2"
-								>
-									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- SIXTH TIMELINE -->
-					<div class="timeline-block">
-						<!-- DOT -->
-						<div
-							class="timeline-dot"
-							data-sr-id="12"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: -webkit-transform 1.1s
-										cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<i class="fa fa-globe"></i>
-						</div>
-						<!-- TIMELINE CONTENT -->
-						<div
-							class="card timeline-content"
-							data-sr-id="13"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: box-shadow 0.25s ease 0s,
-									-webkit-transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: box-shadow 0.25s ease 0s,
-									transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<div class="card-content">
-								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">Web Development</h6>
-								<!-- TIMELINE TITLE INFO -->
-								<div class="timeline-info">
-									<h6>
-										<small>Lipro University</small>
-									</h6>
-									<h6>
-										<small>Jan 2011 - Mar 2012</small>
-									</h6>
-								</div>
-								<!-- TIMELINE PARAGRAPH -->
-								<p>
-									I completed this course from this prestigious institution. I
-									successful completed all the credits without any fallout and
-									got A grade overall.
-								</p>
-								<!-- BUTTON TRIGGER MODAL -->
-								<a
-									href="#"
-									class="modal-dot"
-									data-toggle="modal"
-									data-target="#myModal-3"
-								>
-									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-								</a>
 							</div>
 						</div>
 					</div>
@@ -754,7 +542,7 @@
 								transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
 									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 							"
-						/>Skills
+						/>Умения
 					</h4>
 				</div>
 				<div class="row">
@@ -782,7 +570,7 @@
 									<div class="col-md-4 col-sm-4 col-xs-12">
 										<!-- FIRST SKILL SECTION -->
 										<div class="skills-title">
-											<h6 class="text-center">Professional</h6>
+											<h6 class="text-center">Профессиональные</h6>
 										</div>
 										<!-- FIRST SKILL BAR -->
 										<div class="skillbar" data-percent="90%">
@@ -830,9 +618,9 @@
 											></div>
 											<div class="skill-bar-percent">90%</div>
 										</div>
-										<!-- THIRD SKILL BAR  -->
+										<!-- THIRD dop SKILL BAR  -->
 										<div class="skillbar" data-percent="70%">
-											<div class="skillbar-title"><span>jQuery</span></div>
+											<div class="skillbar-title"><span>VueJS</span></div>
 											<div
 												class="skillbar-bar"
 												style="
@@ -853,41 +641,9 @@
 											></div>
 											<div class="skill-bar-percent">70%</div>
 										</div>
-										<!-- FOURTH SKILL BAR  -->
-										<div class="skillbar" data-percent="68%">
-											<div class="skillbar-title"><span>PHP</span></div>
-											<div
-												class="skillbar-bar"
-												style="
-													width: 68%;
-													visibility: visible;
-													-webkit-transform: scale(1);
-													opacity: 1;
-													transform: scale(1);
-													opacity: 1;
-													-webkit-transition: -webkit-transform 1.8s
-															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
-														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
-													transition: transform 1.8s
-															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
-														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
-												"
-												data-sr-id="56"
-											></div>
-											<div class="skill-bar-percent">68%</div>
-										</div>
-									</div>
-
-									<div class="col-md-4 col-sm-4 col-xs-12">
-										<!-- SECOND SKILL SECTION -->
-										<div class="skills-title">
-											<h6 class="text-center">Personal</h6>
-										</div>
-										<!-- FIRST SKILL BAR -->
+										<!-- THIRD SKILL BAR  -->
 										<div class="skillbar" data-percent="80%">
-											<div class="skillbar-title">
-												<span>Communication</span>
-											</div>
+											<div class="skillbar-title"><span>ReactJS</span></div>
 											<div
 												class="skillbar-bar"
 												style="
@@ -904,17 +660,18 @@
 															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
 														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
 												"
-												data-sr-id="57"
+												data-sr-id="55"
 											></div>
 											<div class="skill-bar-percent">80%</div>
 										</div>
-										<!-- SECOND SKILL BAR  -->
-										<div class="skillbar" data-percent="60%">
-											<div class="skillbar-title"><span>Teamwork</span></div>
+
+										<!-- FOURTH SKILL BAR  -->
+										<div class="skillbar" data-percent="55%">
+											<div class="skillbar-title"><span>FeathersJS</span></div>
 											<div
 												class="skillbar-bar"
 												style="
-													width: 60%;
+													width: 55%;
 													visibility: visible;
 													-webkit-transform: scale(1);
 													opacity: 1;
@@ -927,13 +684,47 @@
 															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
 														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
 												"
-												data-sr-id="58"
+												data-sr-id="56"
 											></div>
-											<div class="skill-bar-percent">60%</div>
+											<div class="skill-bar-percent">55%</div>
 										</div>
-										<!-- THIRD SKILL BAR  -->
+									</div>
+
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<!-- SECOND SKILL SECTION -->
+										<div class="skills-title">
+											<h6 class="text-center">Персональные</h6>
+										</div>
+										<!-- FIRST SKILL BAR -->
+										<div class="skillbar" data-percent="1000%">
+											<div class="skillbar-title">
+												<span>Навык коммуникации</span>
+											</div>
+											<div
+												class="skillbar-bar"
+												style="
+													width: 100%;
+													visibility: visible;
+													-webkit-transform: scale(1);
+													opacity: 1;
+													transform: scale(1);
+													opacity: 1;
+													-webkit-transition: -webkit-transform 1.8s
+															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
+														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+													transition: transform 1.8s
+															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
+														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+												"
+												data-sr-id="57"
+											></div>
+											<div class="skill-bar-percent">1000%</div>
+										</div>
+										<!-- SECOND SKILL BAR  -->
 										<div class="skillbar" data-percent="70%">
-											<div class="skillbar-title"><span>Creativity</span></div>
+											<div class="skillbar-title">
+												<span>Командная работа</span>
+											</div>
 											<div
 												class="skillbar-bar"
 												style="
@@ -950,13 +741,40 @@
 															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
 														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
 												"
-												data-sr-id="59"
+												data-sr-id="58"
 											></div>
 											<div class="skill-bar-percent">70%</div>
 										</div>
+										<!-- THIRD SKILL BAR  -->
+										<div class="skillbar" data-percent="120%">
+											<div class="skillbar-title">
+												<span>Креативность</span>
+											</div>
+											<div
+												class="skillbar-bar"
+												style="
+													width: 100%;
+													visibility: visible;
+													-webkit-transform: scale(1);
+													opacity: 1;
+													transform: scale(1);
+													opacity: 1;
+													-webkit-transition: -webkit-transform 1.8s
+															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
+														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+													transition: transform 1.8s
+															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
+														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+												"
+												data-sr-id="59"
+											></div>
+											<div class="skill-bar-percent">120%</div>
+										</div>
 										<!-- FOURTH SKILL BAR  -->
 										<div class="skillbar" data-percent="70%">
-											<div class="skillbar-title"><span>Dedication</span></div>
+											<div class="skillbar-title">
+												<span>Вовлеченность в работу</span>
+											</div>
 											<div
 												class="skillbar-bar"
 												style="
@@ -982,17 +800,17 @@
 									<div class="col-md-4 col-sm-4 col-xs-12">
 										<!-- THIRD SKILL SECTION -->
 										<div class="skills-title">
-											<h6 class="text-center">Software</h6>
+											<h6 class="text-center">Программы</h6>
 										</div>
 										<!-- FIRST SKILL BAR -->
-										<div class="skillbar" data-percent="80%">
+										<div class="skillbar" data-percent="90%">
 											<div class="skillbar-title">
-												<span>Adobe Illustrator</span>
+												<span>Visual Studio Code</span>
 											</div>
 											<div
 												class="skillbar-bar"
 												style="
-													width: 80%;
+													width: 90%;
 													visibility: visible;
 													-webkit-transform: scale(1);
 													opacity: 1;
@@ -1007,12 +825,60 @@
 												"
 												data-sr-id="61"
 											></div>
-											<div class="skill-bar-percent">80%</div>
+											<div class="skill-bar-percent">90%</div>
 										</div>
 										<!-- SECOND SKILL BAR  -->
+										<div class="skillbar" data-percent="60%">
+											<div class="skillbar-title">
+												<span>Figma</span>
+											</div>
+											<div
+												class="skillbar-bar"
+												style="
+													width: 60%;
+													visibility: visible;
+													-webkit-transform: scale(1);
+													opacity: 1;
+													transform: scale(1);
+													opacity: 1;
+													-webkit-transition: -webkit-transform 1.8s
+															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
+														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+													transition: transform 1.8s
+															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
+														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+												"
+												data-sr-id="62"
+											></div>
+											<div class="skill-bar-percent">60%</div>
+										</div>
+										<!-- THIRD SKILL BAR  -->
+										<div class="skillbar" data-percent="70%">
+											<div class="skillbar-title"><span>Postman</span></div>
+											<div
+												class="skillbar-bar"
+												style="
+													width: 70%;
+													visibility: visible;
+													-webkit-transform: scale(1);
+													opacity: 1;
+													transform: scale(1);
+													opacity: 1;
+													-webkit-transition: -webkit-transform 1.8s
+															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
+														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+													transition: transform 1.8s
+															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
+														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+												"
+												data-sr-id="63"
+											></div>
+											<div class="skill-bar-percent">70%</div>
+										</div>
+										<!-- FOURTH SKILL BAR  -->
 										<div class="skillbar" data-percent="70%">
 											<div class="skillbar-title">
-												<span>Adobe InDesign</span>
+												<span>MongoDB Compass</span>
 											</div>
 											<div
 												class="skillbar-bar"
@@ -1030,55 +896,9 @@
 															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
 														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
 												"
-												data-sr-id="62"
-											></div>
-											<div class="skill-bar-percent">70%</div>
-										</div>
-										<!-- THIRD SKILL BAR  -->
-										<div class="skillbar" data-percent="60%">
-											<div class="skillbar-title"><span>PHP Storm</span></div>
-											<div
-												class="skillbar-bar"
-												style="
-													width: 60%;
-													visibility: visible;
-													-webkit-transform: scale(1);
-													opacity: 1;
-													transform: scale(1);
-													opacity: 1;
-													-webkit-transition: -webkit-transform 1.8s
-															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
-														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
-													transition: transform 1.8s
-															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
-														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
-												"
-												data-sr-id="63"
-											></div>
-											<div class="skill-bar-percent">60%</div>
-										</div>
-										<!-- FOURTH SKILL BAR  -->
-										<div class="skillbar" data-percent="80%">
-											<div class="skillbar-title"><span>Dev Console</span></div>
-											<div
-												class="skillbar-bar"
-												style="
-													width: 80%;
-													visibility: visible;
-													-webkit-transform: scale(1);
-													opacity: 1;
-													transform: scale(1);
-													opacity: 1;
-													-webkit-transition: -webkit-transform 1.8s
-															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
-														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
-													transition: transform 1.8s
-															cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s,
-														opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
-												"
 												data-sr-id="64"
 											></div>
-											<div class="skill-bar-percent">80%</div>
+											<div class="skill-bar-percent">70%</div>
 										</div>
 									</div>
 								</div>
@@ -1113,7 +933,7 @@
 								transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
 									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 							"
-						/>Experience
+						/>Опыт
 					</h4>
 				</div>
 
@@ -1137,7 +957,7 @@
 									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 							"
 						>
-							<h6>D</h6>
+							<h6>Ф</h6>
 						</div>
 						<!-- TIMELINE CONTENT -->
 						<div
@@ -1159,30 +979,21 @@
 						>
 							<div class="card-content">
 								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">Designer</h6>
+								<h6 class="timeline-title">Фронтенд разработчик</h6>
 								<!-- TIMELINE TITLE INFO -->
 								<div class="timeline-info">
 									<h6>
-										<small>RulerSoft</small>
+										<small>Coures</small>
 									</h6>
 									<h6>
-										<small>Jan 2010 - Mar 2012</small>
+										<small>Ноя 2019</small>
 									</h6>
 								</div>
 								<!-- TIMELINE PARAGRAPH -->
 								<p>
-									I started my designing carrier here, spent tow years learning
-									and working in various designing aspects..
+									Я начал свою карьеру фронтенд разработчика год назад, работаю
+									удаленно.
 								</p>
-								<!-- BUTTON TRIGGER MODAL -->
-								<a
-									href="#"
-									class="modal-dot"
-									data-toggle="modal"
-									data-target="#myModal-4"
-								>
-									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-								</a>
 							</div>
 						</div>
 					</div>
@@ -1206,7 +1017,7 @@
 									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 							"
 						>
-							<h6>F</h6>
+							<h6>Б</h6>
 						</div>
 						<!-- TIMELINE CONTENT -->
 						<div
@@ -1228,158 +1039,26 @@
 						>
 							<div class="card-content">
 								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">Frontend Developer</h6>
+								<h6 class="timeline-title">Бекенд разработчик</h6>
 								<!-- TIMELINE TITLE INFO -->
 								<div class="timeline-info">
 									<h6>
-										<small>Micro IT</small>
+										<small>Coures</small>
 									</h6>
 									<h6>
-										<small>Jan 2012 - Mar 2014</small>
+										<small>Сен 2020</small>
 									</h6>
 								</div>
 								<!-- TIMELINE PARAGRAPH -->
 								<p>
-									I started my frontend carrier here, spent tow years learning
-									and working in various frontend aspects. I worked on about 40+
-									projects local and online.
+									Активно разрабатывать бекенд начал с сентября 2020 года.
+									Работаю на фреймворке FeathersJS.
 								</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- THIRD TIMELINE -->
-					<div class="timeline-block">
-						<!-- DOT -->
-						<div
-							class="timeline-dot"
-							data-sr-id="21"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: -webkit-transform 1.1s
-										cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<h6>U</h6>
-						</div>
-						<!-- TIMELINE CONTENT -->
-						<div
-							class="card timeline-content"
-							data-sr-id="22"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: box-shadow 0.25s ease 0s,
-									-webkit-transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: box-shadow 0.25s ease 0s,
-									transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<div class="card-content">
-								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">UI/UX Expert</h6>
-								<!-- TIMELINE TITLE INFO -->
-								<div class="timeline-info">
-									<h6>
-										<small>Libra IT Solutions</small>
-									</h6>
-									<h6>
-										<small>Jan 2014 - Mar 2015</small>
-									</h6>
-								</div>
-								<!-- TIMELINE PARAGRAPH -->
-								<p>
-									I started my expertise carrier here, spent tow years learning
-									and working in various UX/UI aspects. I worked on about 70+
-									projects local and online.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- FOURTH TIMELINE -->
-					<div class="timeline-block">
-						<!-- DOT -->
-						<div
-							class="timeline-dot"
-							data-sr-id="23"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: -webkit-transform 1.1s
-										cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<h6>S</h6>
-						</div>
-						<!-- TIMELINE CONTENT -->
-						<div
-							class="card timeline-content"
-							data-sr-id="24"
-							style="
-								visibility: visible;
-								-webkit-transform: translateY(0) scale(1);
-								opacity: 1;
-								transform: translateY(0) scale(1);
-								opacity: 1;
-								-webkit-transition: box-shadow 0.25s ease 0s,
-									-webkit-transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-								transition: box-shadow 0.25s ease 0s,
-									transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
-									opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
-							"
-						>
-							<div class="card-content">
-								<!-- TIMELINE TITLE -->
-								<h6 class="timeline-title">Senior Developer</h6>
-								<!-- TIMELINE TITLE INFO -->
-								<div class="timeline-info">
-									<h6>
-										<small>WebStyle Technologies</small>
-									</h6>
-									<h6>
-										<small>Jan 2016 - Continue..</small>
-									</h6>
-								</div>
-								<!-- TIMELINE PARAGRAPH -->
-								<p>
-									I recently joined here, currently working on various
-									development aspects. I already worked on about..
-								</p>
-								<!-- BUTTON TRIGGER MODAL -->
-								<a
-									href="#"
-									class="modal-dot"
-									data-toggle="modal"
-									data-target="#myModal-5"
-								>
-									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
 	</body>
 </html>
