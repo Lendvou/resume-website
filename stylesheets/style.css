@@ -2265,6 +2265,6 @@ hr {
 	font-size: 18px;
 }
 
-#about-card {
+* {
 	transition: all unset !important;
 }
